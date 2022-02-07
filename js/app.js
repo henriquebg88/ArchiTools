@@ -1,5 +1,3 @@
-console.log("App rodando...");
-
 const feetToCentimeters = 30.48;
 const inchToCentimeters = 2.54;
 
