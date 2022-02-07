@@ -1,3 +1,16 @@
+body {
+    background: #ddd !important;
+}
+.main{
+    margin: auto;
+    width: 520px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 200px;
+    box-shadow: 0 0 10px #999;
+    padding: 20px;
+    background: white;
+}
 .calculadora {
     margin: 20px;
     width: 400px;
@@ -5,19 +18,25 @@
 h2 {
     padding-top: 20px;
 }
+h2#resultadoM {
+    margin-top: 20px;
+}
 h2#resultadoCM {
     font-size: 20px;
     font-weight: lighter;
 }
 footer.pt-4.my-md-5.pt-md-5.border-top {
     text-align: center;
-    color: #ccc;
+    color: #aaa;
 }
 p.version {
     margin-bottom: 0;
     color: #ccc;
     margin-left: 10px;
     align-self: flex-end;
+}
+div.main header {
+    padding-top: 10px;
 }
 header h1{
     margin: 0;
